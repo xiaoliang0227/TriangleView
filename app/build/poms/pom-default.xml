@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.github.xiaoliang0227</groupId>
-  <artifactId>app</artifactId>
+  <artifactId>TriangleView</artifactId>
   <version>1.0.1</version>
   <packaging>aar</packaging>
-  <name>TriangleView</name>
+  <name>app</name>
   <description>三角角标控件</description>
   <url>https://github.com/xiaoliang0227/TriangleView</url>
   <licenses>

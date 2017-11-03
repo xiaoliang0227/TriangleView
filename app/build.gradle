@@ -7,6 +7,7 @@ apply plugin: 'maven'
 apply plugin: 'signing'
 //定义GroupID和Version，ArtifactID会自动使用Project名
 group = 'com.github.xiaoliang0227'
+archivesBaseName = "TriangleView"
 version = '1.0.1'
 
 repositories {
@@ -35,7 +36,7 @@ uploadArchives {
 
             // 构造项目的pom文件
             pom.project {
-                name 'TriangleView'
+                name project.name
                 packaging 'aar'
                 description '三角角标控件'
                 url 'https://github.com/xiaoliang0227/TriangleView'
