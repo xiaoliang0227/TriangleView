@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TriangleView -->
+    <declare-styleable name="TriangleView">
+        <attr name="t_fillColor" format="color" />
+        <attr name="t_textColor" format="color" />
+        <attr name="t_textSize" format="dimension" />
+        <attr name="t_text" format="string" />
+        <attr name="t_type" format="enum">
+            <enum name="leftTop" value="0" />
+            <enum name="rightTop" value="1" />
+            <enum name="rightBottom" value="2" />
+            <enum name="leftBottom" value="3" />
+        </attr>
+
+    </declare-styleable>
+
+    <!-- RoundTriangleView -->
+    <declare-styleable name="RoundTriangleView">
+        <attr name="rt_fillColor" format="color" />
+        <attr name="rt_textColor" format="color" />
+        <attr name="rt_textSize" format="dimension" />
+        <attr name="rt_text" format="string" />
+        <attr name="rt_roundRadius" format="integer" />
+        <attr name="rt_type" format="enum">
+            <enum name="leftTop" value="0" />
+            <enum name="rightTop" value="1" />
+            <enum name="rightBottom" value="2" />
+            <enum name="leftBottom" value="3" />
+        </attr>
+
+    </declare-styleable>
+</resources>
