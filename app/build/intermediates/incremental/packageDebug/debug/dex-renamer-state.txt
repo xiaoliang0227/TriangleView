@@ -1,4 +1,0 @@
-#Fri Nov 03 10:03:52 CST 2017
-base.0=/Users/zhaoyongliang/workspace/myandroid/TriangleViewDemo/app/build/intermediates/transforms/dexMerger/debug/0
-renamed.0=classes.dex
-file.0=/Users/zhaoyongliang/workspace/myandroid/TriangleViewDemo/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

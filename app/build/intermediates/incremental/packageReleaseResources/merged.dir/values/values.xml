@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <declare-styleable name="RoundTriangleView"><attr format="color" name="rt_fillColor"/><attr format="color" name="rt_textColor"/><attr format="dimension" name="rt_textSize"/><attr format="string" name="rt_text"/><attr format="integer" name="rt_roundRadius"/><attr format="enum" name="rt_type">
+            <enum name="leftTop" value="0"/>
+            <enum name="rightTop" value="1"/>
+            <enum name="rightBottom" value="2"/>
+            <enum name="leftBottom" value="3"/>
+        </attr></declare-styleable>
+    <declare-styleable name="TriangleView"><attr format="color" name="t_fillColor"/><attr format="color" name="t_textColor"/><attr format="dimension" name="t_textSize"/><attr format="string" name="t_text"/><attr format="enum" name="t_type">
+            <enum name="leftTop" value="0"/>
+            <enum name="rightTop" value="1"/>
+            <enum name="rightBottom" value="2"/>
+            <enum name="leftBottom" value="3"/>
+        </attr></declare-styleable>
+    <string name="app_name">TriangleViewDemo</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
