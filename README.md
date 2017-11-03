@@ -6,6 +6,13 @@
 
 圆角三角角标，左上角、右上角、右下角、左下角
 
+### gradle 引入方式如下
+~~~
+compile 'com.github.xiaoliang0227:TriangleView:1.0.1'
+or
+compile 'com.github.xiaoliang0227:app:1.0.1'
+~~~
+
 ![image](https://github.com/xiaoliang0227/TriangleView/blob/master/screen_shot.png)
 
 ### 下面分别介绍两种角标的属性及使用方式
