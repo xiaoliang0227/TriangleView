@@ -8,9 +8,7 @@
 
 ### gradle 引入方式如下
 ~~~
-compile 'com.github.xiaoliang0227:TriangleView:1.0.1'
-or
-compile 'com.github.xiaoliang0227:app:1.0.1'
+compile 'com.github.xiaoliang0227:TriangleView:1.0.2'
 ~~~
 
 ![image](https://github.com/xiaoliang0227/TriangleView/blob/master/screen_shot.png)
